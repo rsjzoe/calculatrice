@@ -25,6 +25,10 @@ button {
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   border-radius: 7px;
   cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover {
+  background: rgba(117, 103, 103, 0.084);
 }
 .button-container {
   margin-top: 10px;
@@ -38,17 +42,21 @@ button {
   font-weight: bold;
   font-size: 18px;
 }
+.egal:hover {
+  color: #000;
+}
 .answer {
-    height: 90px;
-    font-size: 24px;
-    font-weight: 600;
-    justify-content: end;
-    display: flex;
-    padding: 10px;
-    border-radius: 10px;
-    align-items: center;
-    box-shadow: rgba(17, 17, 26, 0.08) 0px 4px 16px 0px inset, rgba(17, 17, 26, 0.06) 0px 8px 32px 0px;
-}    
+  height: 90px;
+  font-size: 24px;
+  font-weight: 600;
+  justify-content: end;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.08) 0px 4px 16px 0px inset,
+    rgba(17, 17, 26, 0.06) 0px 8px 32px 0px;
+}
 .clear button {
   margin-top: 10px;
   color: #ededed;

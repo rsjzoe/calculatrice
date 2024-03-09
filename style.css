@@ -31,7 +31,7 @@ button:hover {
   background: rgba(117, 103, 103, 0.084);
 }
 .button-container {
-  margin-top: 10px;
+  margin-top: 35px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 10px;
@@ -58,7 +58,11 @@ button:hover {
     rgba(17, 17, 26, 0.06) 0px 8px 32px 0px;
 }
 .clear button {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   color: #ededed;
   background-color: #42cc79;
+}
+.clear button:hover {
+  color: #000;
+  background: rgba(117, 103, 103, 0.084);
 }
